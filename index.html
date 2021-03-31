@@ -1,0 +1,101 @@
+<html>
+<head>
+    <link href="newdd.css" rel="stylesheet">
+    <div class="topbox">
+<p>QUIZ ON INDIA</br>!!  HOW MUCH DO YOU KNOW ABOUT YOUR COUNTRY  !!</p>
+    </div>
+</head>
+<body>
+<form>
+    <div class="leftbox">
+        <p>NOTE:EACH QUESTION CONTAINS ONE MARK(use capital alphabets)</p>
+        <p>Q1-WHO IS PRESIDENT OF INDIA?</p>
+        <input type="text" id="firstquestion" size="20"></br></br></br>
+        <p>Q2-WHO IS PRIMEMINISTER OF INDIA?</p>
+        <input type="text" id="secondquestion" size="20"></br></br></br>
+    
+        <p>Q3-WHAT IS THE CAPITAL OF INDIA?</p>
+    
+        <input type="text" id="thirdquestion" size="20">
+    </div>
+    <div class="rightbox">
+        <p>NOTE:EACH QUESTION CONTAINS ONE MARK(use capital alphabets)</p>
+        <p>Q4-WHO IS KNOWN AS FATHER OF NATION? </p>
+        <input type="text" id="fourthquestion" size="20"></br></br></br>
+        <p>Q5-WHO IS KNOWN AS IRON MAN  OF INDIA?</p>
+        <input type="text" id="fifthquestion" size="20"></br></br></br>
+    
+        <p>Q6-WHAT IS FIRST LADY PRIME MINISTER  OF INDIA?</p>
+    
+        <input type="text" id="sixthquestion" size="20">
+    </div>
+<div class="middle">
+    <p>NOTE:EACH QUESTION CONTAINS TWO MARK(use capital alphabets)</p>
+    <p>Q1-WHICH CITY IS KNOWN AS PINK CITY OF INDIA?</p>
+    <input type="text"  id="seventhquestion" size="60">
+    <p>WHICH CITY IS KNOWN AS CITY OF LAKES?</p>
+    <input type="text"  id="eightquestion" size="60"></br></br></br>
+    <input type="button" name="SUBMIt" value="SUBMIT" id="SUBMIT" onclick="check()" >
+</form>   
+</div>
+<div class="middle2">
+<p>YOUR SCORE IS</p>
+    <p id="demo"></p>
+</div>
+<script>
+    function check()
+    {
+    
+    var one=document.getElementById("firstquestion").value;
+    var two=document.getElementById("secondquestion").value;
+    var three=document.getElementById("thirdquestion").value;
+    var four=document.getElementById("fourthquestion").value;
+    var five=document.getElementById("fifthquestion").value
+    var six=document.getElementById("sixthquestion").value;
+    var seven=document.getElementById("seventhquestion").value;
+    var eight=document.getElementById("eightquestion").value;
+var count=0;
+    if(one=='RAM NATH KOVIND')
+    {
+        count=count+1;
+    }
+    if(two=='NARENDRA MODI')
+    {
+        count=count+1;
+    }
+    if(three=='NEW DELHI')
+    {
+        count=count+1;
+    }
+    if(four=='MAHATMA GANDHI')
+    {
+        count=count+1;
+    }
+    if(five=='VALLABHBHAI PATEL')
+    {
+        count=count+1;
+    }
+    if(six=='INDIRA GANDHI')
+    {
+        count=count+1;
+    }
+    if(seven=='JAIPUR')
+    {
+        count=count+2;
+    }if(eight=='BHOPAL')
+    {
+        count=count+2;
+    }
+    
+    document.getElementById("demo").innerHTML=count;
+    }
+    </script>
+</body>
+<footer>
+    <div class="downbox">
+        <p> 
+        Designed and developed by HEM CHANDRA SUYAL&#169 2021 All Right Reserved </p>
+            </div>
+</footer>
+
+</html>

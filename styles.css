@@ -1,0 +1,75 @@
+
+body{
+   background-image: url("1617202064421.jpg");
+   background-size: cover;
+
+}
+.topbox
+{
+    height:100px;
+      color:darkorange;
+      text-align:center; 
+      font-size: 50px;
+      font-style:bold;
+      border-radius: 50px;
+      font-size: 40px;
+}
+.leftbox
+{   
+    width: 300px;
+    height: 500px;
+    background:#F2AA4CFF;
+   float: left;
+   
+    padding: 15px;
+    border-radius: 50px;
+    color:blue;
+    
+    margin-bottom: 50px;
+}
+.middle
+{
+padding: 10px;
+margin-left:500px;
+height: 250px;
+width: 500px;
+background:#95b9c7;
+border-radius: 50px;
+}
+.rightbox
+{   
+    width: 300px;
+    height: 500px;
+    float: right;
+    background:#F2AA4CFF;
+    padding: 19px;
+    border-radius: 50px;
+    color:black;
+    
+    margin-bottom: 50px;
+}
+.downbox
+{  
+    height:40px;
+    background:#FFD700;
+      text-align:center; 
+      font-size: 25px;
+      font-style:bold;
+      border-radius: 50px;
+      color:black ;
+      }
+.middle2{
+    margin-left: 509px;
+height: 250px;
+width: 500px;
+background:#D46037;
+border-radius: 50px;
+font-size: 55px;
+text-align: center ;}
+#demo{ text-align: center;
+font-size: 90px;
+
+}
+#SUBMIT,#firstquestion,#secondquestion,#thirdquestion,#fourthquestion,#fifthquestion,#sixthquestion,#seventhquestion,#eightquestion{
+    border-radius: 50px;
+}
